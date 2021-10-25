@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#456EAE"
+    tools:context=".ResultActivity" >
+
+    <TextView
+        android:id="@+id/plant_country_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textColor="#E1F5FE"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/plant_country_label"
+        app:layout_constraintTop_toTopOf="@+id/plant_country_label" />
+
+    <TextView
+        android:id="@+id/transmission_speed_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textColor="#E1F5FE"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/transmission_speeds_label"
+        app:layout_constraintTop_toTopOf="@+id/transmission_speeds_label" />
+
+    <TextView
+        android:id="@+id/drive_type_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textColor="#E1F5FE"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/drive_type_label"
+        app:layout_constraintTop_toTopOf="@+id/drive_type_label" />
+
+    <TextView
+        android:id="@+id/transmission_style_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textColor="#E1F5FE"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/transmission_style_label"
+        app:layout_constraintTop_toTopOf="@+id/transmission_style_label" />
+
+    <TextView
+        android:id="@+id/transmission_style_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/transmission_style"
+        android:textColor="#E1F5FE"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/class_label"
+        app:layout_constraintTop_toBottomOf="@+id/class_label" />
+
+    <TextView
+        android:id="@+id/transmission_speeds_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/transmission_speeds"
+        android:textColor="#E1F5FE"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/transmission_style_label"
+        app:layout_constraintTop_toBottomOf="@+id/transmission_style_label" />
+
+    <TextView
+        android:id="@+id/drive_type_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/drive_type"
+        android:textColor="#E1F5FE"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/transmission_speeds_label"
+        app:layout_constraintTop_toBottomOf="@+id/transmission_speeds_label" />
+
+    <TextView
+        android:id="@+id/plant_country_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/country"
+        android:textColor="#E1F5FE"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/drive_type_label"
+        app:layout_constraintTop_toBottomOf="@+id/drive_type_label" />
+
+    <TextView
+        android:id="@+id/class_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textColor="#E1F5FE"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/class_label"
+        app:layout_constraintTop_toTopOf="@+id/class_label" />
+
+    <TextView
+        android:id="@+id/class_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/body_class"
+        android:textColor="#E1F5FE"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/type_label"
+        app:layout_constraintTop_toBottomOf="@+id/type_label" />
+
+    <TextView
+        android:id="@+id/type_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textColor="#E1F5FE"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/type_label"
+        app:layout_constraintTop_toTopOf="@+id/type_label" />
+
+    <TextView
+        android:id="@+id/make_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textColor="#E1F5FE"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/make_label"
+        app:layout_constraintTop_toTopOf="@+id/make_label" />
+
+    <TextView
+        android:id="@+id/model_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textColor="#E1F5FE"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/model_label"
+        app:layout_constraintTop_toTopOf="@+id/model_label" />
+
+    <TextView
+        android:id="@+id/trim_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textColor="#E1F5FE"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/trim_label"
+        app:layout_constraintTop_toTopOf="@+id/trim_label" />
+
+    <TextView
+        android:id="@+id/year_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textColor="#E1F5FE"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/year_label"
+        app:layout_constraintTop_toTopOf="@+id/year_label" />
+
+    <TextView
+        android:id="@+id/year_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/year_label"
+        android:textColor="#E1F5FE"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/vin_label"
+        app:layout_constraintTop_toBottomOf="@+id/vin_label" />
+
+    <TextView
+        android:id="@+id/make_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/make_label"
+        android:textColor="#E1F5FE"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/year_label"
+        app:layout_constraintTop_toBottomOf="@+id/year_label" />
+
+    <TextView
+        android:id="@+id/model_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/model_label"
+        android:textColor="#E1F5FE"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/make_label"
+        app:layout_constraintTop_toBottomOf="@+id/make_label" />
+
+    <TextView
+        android:id="@+id/trim_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/trim_label"
+        android:textColor="#E1F5FE"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/model_label"
+        app:layout_constraintTop_toBottomOf="@+id/model_label" />
+
+    <TextView
+        android:id="@+id/type_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/type_label"
+        android:textColor="#E1F5FE"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/trim_label"
+        app:layout_constraintTop_toBottomOf="@+id/trim_label" />
+
+    <TextView
+        android:id="@+id/vin_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/vin_label"
+        android:textColor="#E1F5FE"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/vin_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textColor="#E1F5FE"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/vin_label"
+        app:layout_constraintTop_toTopOf="@+id/vin_label" />
+
+    <TextView
+        android:id="@+id/error_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:gravity="center"
+        android:textColor="#E1F5FE"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

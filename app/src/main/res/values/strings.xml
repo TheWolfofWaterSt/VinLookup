@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">VinLookup</string>
+    <string name="header_text">VIN Lookup</string>
+    <string name="vin_search_hint">Search VIN</string>
+    <string name="search_button_text">Search</string>
+    <string name="VIN_image_description">Image of a VIN</string>
+    <string name="vin_description">A Vehicle Identification Number or VIN is a 17-digit code of letters and numbers that identifies a car uniquely. Look for your car\'s VIN at the front of the dashboard, on the driver\'s side of the vehicle. It\'s easiest to see your VIN from outside the car at the area where the hood ends and the windshield begins.</string>
+    <string name="vin_label">VIN:</string>
+    <string name="year_label">Year:</string>
+    <string name="make_label">Make:</string>
+    <string name="model_label">Model:</string>
+    <string name="trim_label">Trim:</string>
+    <string name="type_label">Body Type:</string>
+    <string name="toast_message">A VIN must be 17 characters long, please recheck your input</string>
+    <string name="error_message">We could not find a car associated with this VIN. Please go back and try again</string>
+    <string name="transmission_style">Transmission Style:</string>
+    <string name="body_class">Body Class:</string>
+    <string name="transmission_speeds">Transmission Speeds:</string>
+    <string name="drive_type">Drive Type:</string>
+    <string name="country">Country:</string>
+</resources>
